@@ -20,7 +20,7 @@ def home():
     return render_template("index.html")
 
 
-@app.route("/mcontact", methods=["GET", "POST"])
+@app.route("/contact_us", methods=["GET", "POST"])
 def contact():
     if request.method == "POST":
         name = request.form["name"]
@@ -38,7 +38,7 @@ def service():
     return render_template("services.html")
 
 
-@app.route("/mgallery")
+@app.route("/reception")
 def gallery():
     # creating a map in the view
     mymap = Map(
@@ -81,7 +81,7 @@ def gallery():
     return render_template("gallery2.html", mymap=mymap, sndmap=sndmap, gmap=gmap)
 
 
-@app.route("/mabout")
+@app.route("/about_us")
 def about():
     return render_template("about2.html")
 
