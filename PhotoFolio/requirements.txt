@@ -1,0 +1,36 @@
+Flask==	2.3.2
+Jinja2==	3.1.2
+Markdown==	3.3.7
+MarkupSafe==	2.1.3
+PyYAML==	6.0
+Pygments==	2.15.1
+Werkzeug==	2.3.6
+blinker==	1.6.2
+certifi==	2023.5.7
+charset-normalizer==	3.1.0
+click==	8.1.3
+colorama==	0.4.6
+flask-googlemaps==	0.4.1
+ghp-import==	2.1.0
+gunicorn==	20.1.0
+htmlmin==	0.1.12
+idna==	3.4	3.4
+itsdangerous==	2.1.2
+jsmin==	3.0.1
+mergedeep==	1.3.4
+mkdocs==	1.4.3
+mkdocs-material==	5.5.14
+mkdocs-material-extensions==	1.1.1
+mkdocs-minify-plugin==	0.3.0
+packaging==	23.1
+pip==	21.3.1
+pymdown-extensions==	10.0.1
+python-dateutil==	2.8.2
+python-dotenv==	1.0.0
+pyyaml-env-tag==0.1
+requests==	2.31.0
+setuptools==	60.2.0
+six==	1.16.0
+urllib3==	2.0.3
+watchdog==	3.0.0
+wheel==	0.37.1	0
